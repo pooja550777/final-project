@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js"></script>
+    <script id="add" type="text/x-handlebars-template">
+      <p style="text-align:center; background-color: black; border:20px solid white; padding:80px; color:white;">Hi 👋,, {{namefull}} ,Thank you for choosing us.<br>We are happy to see you as member of our fashion journey.<br>We will contact you {{mobile}},If order placed...Thank you!!<br>&#128512;</p>
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+     <!-- font awesome cdn link  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  </head>
+  
+  
+  
+  <body>
+
+ <!-- header section  -->
+ <header class="header">
+
+  
+
+  <!-- top navigation   -->
+  <nav class="navbar" title="this is navbar">
+
+      <a href="index.html">Home</a>
+      <a href="#products">Products</a>
+      <a href="#review">review</a>
+      <a href="#featured">featured</a>
+      <a href="#contact">contact</a>
+      <a href="./main.html">Add products</a>
+
+  </nav>
+
+  <div class="icons">
+      <div id="menu-btn" class="fas fa-bars"></div>
+      <div id="search-btn" class="fas fa-search"></div>
+      <a href="#" title="add to cart" class="fas fa-shopping-cart"></a>
+      <a href="#" title="like your choice" class="fas fa-heart"></a>
+  </div>
+
+  <form action="" class="search-form">
+      <input type="search" name="" placeholder="search here..." id="search-box">
+      <label for="search-box" title="search here" class="fas fa-search"></label>
+  </form>
+</header>
+<!-- header section ends -->
+<section class="item">
+  <div id="form" style="text-align:center;">
+    <main class="form-product">
+      <div class="mb-3">
+    <label for="pname">Name:</label><br>
+    <input id="pname" type="text" name="pname">
+      </div>
+    
+    <div class="mb-3">
+      <label for="name">description:</label><br>
+      <input id="description" type="text" name="name">
+    </div>
+    
+      <div class="mb-3">
+      <label for="img1">Image URL:</label><br>
+      <input id="img1" type="text" name="img1">
+      </div>
+     
+      <div class="mb-3"></div>
+      <label for="price">Price:</label><br>
+      <input id="price" type="text" name="price">
+    </main></div>
+    <br>
+                </div>                    
+                <button type="submit" class="btn btn-primary btn-block" id="bt1" data-toggle="tooltip" title="save Item">Save Item</button>
+                <br>
+            <div id="message"></div>
+        </div>
+   </div>
+</div>
+<div class="container">
+    <h1 class="my-5">Items List</h1>
+    <div id="list-items"></div>
+           
+</div>
+<div>
+  <button><a href="productlist.html">added product list</a></button>
+</div>
+<script src="./addingitems/items_controller.js"></script>
+      <script src="./addingitems/main.js"></script>
+             
+
+</section>
+
+
+
+
+
+      
+ 
+</body>   
+</html>

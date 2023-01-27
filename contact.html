@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>contact</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js"></script>
+        <script id="view" type="text/x-handlebars-template">
+
+            <p style="text-align:center; background-color:black ; font-family: Georgia, serif;  color:white; font-size: large; border-radius: 10px;"><br><br> Hii, {{Name}} .Welcome to Sai loans.<br>We are happy to see you as member of our Team.<br>We will contact you on {{number}},Your Cibil Status Updated shortly.. <br>Thank you..!! <br><br><br></p>
+            </script>
+      
+
+    </head>
+    <body>
+         <!-- contact section starts  -->
+
+ <section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> us </h1>
+
+    <div class="icons-container">
+
+        <div class="icons">
+            
+            <h3>address</h3>
+            <p>hinjewadi, pune, india - 411033</p>
+        </div>
+
+        <div class="icons">
+           
+            <h3>email</h3>
+            <p>poojajadhav550777@gmail.com</p>
+            <p>anshika550777@gmail.com</p>
+        </div>
+
+        <div class="icons">
+          
+            <h3>phone</h3>
+            <p>+91 9156780325</p>
+            <p>+91 9860799034</p>
+        </div>
+
+    </div>
+
+   
+
+       
+    
+        <section>
+            <div class="row">
+            
+        <form >
+            <h3>get in touch</h3>
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="your name">
+                <input type="email" id="email" placeholder="your email">
+                
+            </div>
+            <div class="inputBox">
+                <input type="text" id="number" placeholder="your number">
+                <input type="text" id="subject" placeholder="your subject">
+            </div>
+            <textarea placeholder="your message" id="yourmessage" cols="30" rows="10"></textarea>
+            <input type="submit" id="bt1" value="send message" class="btn">
+            <div id="message"></div>
+        </form>
+    </div>
+        </section>
+   
+
+    
+
+    
+
+</section>
+<script src="./contact.js"></script>
+        
+     
+    </body>
+</html>

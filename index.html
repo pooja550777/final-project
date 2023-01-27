@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloths Fashion Website Design</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <script id="add" type="text/x-handlebars-template">
+        <p style="text-align:center; background-color: black; border:20px solid white; padding:80px; color:white;">Hi 👋,, {{namefull}} ,Thank you for choosing us.<br>We are happy to see you as member of our fashion journey.<br>We will contact you on {{mobile}},If order placed...Thank you!!<br>&#128512;</p>
+      </script>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="blogresource/fevicon.png"  >
+
+</head>
+<body>
+
+    
+
+    <!-- header section  -->
+    <header class="header">
+
+        <a href="#" class="logo"><i class="shopping-cart"></i> shop </a>
+
+        <!-- top navigation   -->
+        <nav class="navbar" title="this is navbar">
+
+            <a href="#home" title="home">home</a>
+            <a href="#products" title="products">products</a>
+            <a href="#review" title="review">review</a>
+            <a href="#featured" title="featured">featured</a>
+            <a href="./contact.html" title="contact">contact</a>
+            <a href="./main.html" target="_blank">Add products</a>
+
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" title="add to cart" class="fas fa-shopping-cart"></a>
+            <a href="#" title="like your choice" class="fas fa-heart"></a>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" title="search here" class="fas fa-search"></label>
+        </form>
+    </header>
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" style="background:url(image/banner1.jpg) no-repeat">
+                    <div class="content">
+                        <span>upto 70% off</span>
+                        <h3>women's Fashion</h3>
+                        <a href="#" class="btn">shop now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background:url(blogresource/2.jpg) no-repeat">
+                    <div class="content">
+                        <span>upto 50% off</span>
+                        <h3>men's Fashion</h3>
+                        <a href="#" class="btn">shop now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background:url(image/banner3.jpg) no-repeat">
+                    <div class="content">
+                        <span>upto 60% off</span>
+                        <h3>kid's Fashion</h3>
+                        <a href="#" title="click here" class="btn">shop now</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div title="swipe right" class="swiper-button-next"></div>
+            <div title="swipe left" class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+  <!-- banner section starts  -->
+
+  <section class="banner-container">
+
+    <div class="banner">
+        <img src="image/shop_banner_img1.jpg" alt="">
+        <div class="content">
+            <span>special offer</span>
+            <h3>upto 80% off</h3>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="image/shopbanner2.jpg" alt="">
+        <div class="content">
+            <span>special offer</span>
+            <h3>upto 70% off</h3>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </div>
+
+</section>
+
+<!-- banner section ends -->
+ <!-- products section starts  -->
+
+ <section class="products" id="products">
+
+    <h1 class="heading">Mystore exclusive <span>products</span> </h1>
+
+    <div class="filter-buttons">
+        <div class="buttons active" data-filter="all">all</div>
+        <div class="buttons" data-filter="arrivals">new arrivals</div>
+        <div class="buttons" data-filter="featured">featured</div>
+        <div class="buttons" data-filter="special">special offer</div>
+        <div class="buttons" data-filter="seller">best seller</div>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box" data-item="featured">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/product1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>bridal lehnga</h3>
+                <div class="price">
+                    <div class="amount">4000</div>
+                    <div class="cut">2000</div>
+                    <div class="offer">6000</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(50)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="special">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/product2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>bridal lehnga</h3>
+                <div class="price">
+                    <div class="amount">3000</div>
+                    <div class="cut">1000</div>
+                    <div class="offer">4000</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(50)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="seller">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/product3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Lehnga</h3>
+                <div class="price">
+                    <div class="amount">3000</div>
+                    <div class="cut">2000</div>
+                    <div class="offer">5000</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(50)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="arrivals">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/product4.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Sarri</h3>
+                <div class="price">
+                    <div class="amount">650</div>
+                    <div class="cut">350</div>
+                    <div class="offer">1000</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(50)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="featured">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/product5.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>fancy saree</h3>
+                <div class="price">
+                    <div class="amount">650</div>
+                    <div class="cut">350</div>
+                    <div class="offer">1000</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(50)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="arrivals">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/product6.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Fancy sarre</h3>
+                <div class="price">
+                    <div class="amount">650</div>
+                    <div class="cut">350</div>
+                    <div class="offer">1000</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(50)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="special">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/party1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>party wear</h3>
+                <div class="price">
+                    <div class="amount">650</div>
+                    <div class="cut">350</div>
+                    <div class="offer">1000</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(60)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="seller">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/party2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>fancy top</h3>
+                <div class="price">
+                    <div class="amount">650</div>
+                    <div class="cut">350</div>
+                    <div class="offer">1000</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(70)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="seller">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/child.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>buy1 get1</h3>
+                <div class="price">
+                    <div class="amount">1900</div>
+                    <div class="cut">1100</div>
+                    <div class="offer">3000</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(70)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="featured">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/product_img10.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>cool combo</h3>
+                <div class="price">
+
+
+                    <div class="offer">1000</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(70)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="special">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/product_img11.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Party wear</h3>
+                <div class="price">
+                    <div class="amount">1100</div>
+                    <div class="cut">900</div>
+                    <div class="offer">2000</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(60)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="seller">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/product_img12.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Black tshirt</h3>
+                <div class="price">
+                    <div class="amount">450</div>
+                    <div class="cut">550</div>
+                    <div class="offer">1000</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(60)</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- products section ends -->
+
+<!-- deal section starts  -->
+
+<section class="deal">
+
+    <div class="image">
+        <img src="" alt="">
+    </div>
+
+    <div class="content">
+        <span>new season trending!</span>
+        <h3>best summer collection</h3>
+        <p>sale get up to 50% off</p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+
+</section>
+
+<!-- deal section ends -->
+
+
+
+    <!-- reviews section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> client's <span>review</span> </h1>
+
+        <div class="swiper review-slide">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <p>This is super comfy!fits well also over broad shoulders, and breathes somewhat. 
+                         this lehnga is for my spl day & just bcoz of this i will be look pretiest bride ever..</p>
+                    <div class="user">
+                        <img src="image/review2.jpeg" alt="">
+                        <div class="info">
+                            <h3>ansika jadhav</h3>
+                            <span>happy client</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>   
+
+        </div>
+
+    </section>
+
+    <!-- reviews section ends -->
+    <!-- contact section starts  -->
+
+ <section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> us </h1>
+
+    <div class="icons-container">
+
+        <div class="icons">
+            
+            <h3>address</h3>
+            <p>hinjewadi, pune, india - 411033</p>
+        </div>
+
+        <div class="icons">
+           
+            <h3>email</h3>
+            <p>poojajadhav550777@gmail.com</p>
+            <p>anshika550777@gmail.com</p>
+        </div>
+
+        <div class="icons">
+          
+            <h3>phone</h3>
+            <p>+91 9156780325</p>
+            <p>+91 9860799034</p>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <form action="">
+            <h3>get in touch</h3>
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="your name">
+                <input type="email" id="email" placeholder="your email">
+                
+            </div>
+            <div class="inputBox">
+                <input type="text" id="number" placeholder="your number">
+                <input type="text" id="subject" placeholder="your subject">
+            </div>
+            <textarea placeholder="your message" cols="30" rows="10"></textarea>
+            <input type="submit" id="bt1" value="send message" class="btn">
+        </form>
+    
+
+    </div>
+
+    <div id="message">
+
+    </div>
+<script src="./contact.js"></script>
+</section>
+
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>featured</span> products </h1>
+
+    <div class="swiper featured-slider">
+        
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="blogresource/6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>beautiful Lehnga</h3>
+                    <div class="price">
+                        <div class="amount">6000</div>
+                        <div class="cut">2000</div>
+                        <div class="offer">8000</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(70)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="blogresource/5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>beautiful Sarri</h3>
+                    <div class="price">
+                        <div class="amount">4000</div>
+                        <div class="cut">1000</div>
+                        <div class="offer">5000</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(50)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="blogresource/4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>beautiful Sarri</h3>
+                    <div class="price">
+                        <div class="amount">4000</div>
+                        <div class="cut">1000</div>
+                        <div class="offer">5000</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(60)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="blogresource/2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>shirt</h3>
+                    <div class="price">
+                        <div class="amount">3000</div>
+                        <div class="cut">2000</div>
+                        <div class="offer">20% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(50)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/product_img10.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>product name</h3>
+                    <div class="price">
+                        <div class="amount">2k</div>
+                        <div class="cut">500</div>
+                        <div class="offer">20% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(50)</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- featured section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-instagram"></a>
+        </div>
+    
+        
+        
+    </section>
+    
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

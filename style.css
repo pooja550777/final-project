@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#form{
+
+    padding-top: 100px;
+
+
+}
+
+
+.heading {
+    font-size: 3.5rem;
+    color: #130f40;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .heading span {
+    color: #eb4d4b;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .9rem 3rem;
+    border-radius: .5rem;
+    background: #eb4d4b;
+    color: #fff;
+    font-size: 1.7rem;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: #130f40;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 2rem 9%;
+    background: #fff;
+  }
+  
+  .header .logo {
+    font-size: 2.5rem;
+    color: #130f40;
+    font-weight: bolder;
+  }
+  
+  .header .logo i {
+    color: #eb4d4b;
+  }
+  
+  .header .navbar a {
+    font-size: 1.7rem;
+    color: #666;
+    margin: 0 1rem;
+  }
+  
+  .header .navbar a:hover {
+    color: #eb4d4b;
+  }
+  
+  .header .icons div,
+  .header .icons a {
+    font-size: 2.5rem;
+    margin-left: 2rem;
+  }
+  
+  .header .search-form {
+    position: absolute;
+    top: 115%;
+    right: -105%;
+    width: 50rem;
+    height: 5.5rem;
+    background: #fff;
+    border-radius: .5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border: 0.1rem solid rgba(0, 0, 0, 0.3);
+  }
+  
+  .header .search-form.active {
+    right: 2rem;
+    -webkit-transition: .4s linear;
+    transition: .4s linear;
+  }
+  
+  .header .search-form input {
+    height: 100%;
+    width: 100%;
+    font-size: 1.6rem;
+    text-transform: none;
+    color: #130f40;
+    padding: 0 1.2rem;
+  }
+  
+  .header .search-form label {
+    font-size: 2.2rem;
+    margin-right: 1.7rem;
+  }
+  
+  #menu-btn {
+    display: none;
+  }
+  
+  .home {
+    padding: 0;
+    padding-top: 7.6rem;
+  }
+  
+.item{
+    padding-top: 100px;
+}
